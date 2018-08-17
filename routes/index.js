@@ -4,7 +4,7 @@ let router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('content/index', { 
-    title: 'Express Demo' 
+    title: 'Express HomePage' 
   });
 });
 
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('content/about', { 
     title: 'About Express',
-    author: 'Tom Tsiliopoulos'
+    author: 'Nishat Bagga'
  });
 });
 
@@ -21,7 +21,7 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('content/contact', { 
     title: 'Contact Me',
-    authors: ['Tom', 'Mark', 'Luke', 'Jaden', 'John']
+    authors: ['Nishat_Bagga']
  });
 });
 
